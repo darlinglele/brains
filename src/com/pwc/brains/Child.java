@@ -12,10 +12,14 @@ public class Child implements Serializable, Cloneable {
     }
 
     public Node getNode() {
-        if (node == null) {
-            node = Node.load(this.name);
+        if (this.node == null) {
+            try {
+                this.node = Node.load(this.name);
+            } catch (NodeSerializationException e) {
+                Console.exception("unable to get node from file name " + name, e);
+            }
         }
-        return node;
+        return this.node;
     }
 
     @Override
