@@ -52,34 +52,9 @@ public class Node implements Serializable, Cloneable {
         return binarySearch(this.entities, 0, this.size() - 1, key);
     }
 
-    public String save() throws NodeSerializationException {
-        FileOutputStream os = null;
-        ObjectOutputStream o = null;
-        String fileName = INDEX_FILE_DIR + String.valueOf(this.getName());
-        try {
-            os = new FileOutputStream(fileName);
-            o = new ObjectOutputStream(os);
-        } catch (FileNotFoundException e) {
-            throw new NodeSerializationException("Unable to find or access the file:" + fileName, e);
-
-        } catch (IOException e) {
-            throw new NodeSerializationException("Unable to write the file:" + fileName, e);
-        }
-
-        try {
-            o.writeObject(this.clone());
-            o.flush();
-        } catch (IOException e) {
-            throw new NodeSerializationException(e.getMessage(), e);
-        } finally {
-            try {
-                o.close();
-            } catch (IOException e) {
-                // I don't how to handle this kind error, throw a checked exception?
-            }
-        }
-
-        return this.getName();
+    public String save() throws ObjectSerializationException {
+        Util.serialize(INDEX_FILE_DIR + String.valueOf(this.name()), this.clone());
+        return this.name();
     }
 
     public void print() {
@@ -90,25 +65,11 @@ public class Node implements Serializable, Cloneable {
         }
     }
 
-    public static Node load(String file) throws NodeSerializationException {
-        Object node = null;
-        String fileName = INDEX_FILE_DIR + String.valueOf(file);
-        try {
-            FileInputStream input = new FileInputStream(fileName);
-            ObjectInputStream objInput = new ObjectInputStream(input);
-            node = (Object) objInput.readObject();
-            return (Node) node;
-        } catch (Exception e) {
-            throw new NodeSerializationException("Unable to load the node from file:", e);
-        }
-        finally {
-            return (Node) node;
-        }
-
-
+    public static Node load(String file) throws ObjectSerializationException {
+        return (Node) Util.deserialize(INDEX_FILE_DIR + String.valueOf(file));
     }
 
-    public String getName() {
+    public String name() {
         return this.name;
     }
 

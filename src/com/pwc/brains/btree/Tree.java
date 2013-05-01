@@ -24,7 +24,7 @@ public class Tree implements Serializable {
     public void load() {
         try {
             this.root = Node.load(this.name);
-        } catch (NodeSerializationException e) {
+        } catch (ObjectSerializationException e) {
             Console.exception("unable to load the tree root from file:" + this.name, e);
         }
     }
@@ -37,7 +37,7 @@ public class Tree implements Serializable {
             Node node = (Node) val;
             try {
                 node.save();
-            } catch (NodeSerializationException e) {
+            } catch (ObjectSerializationException e) {
                 Console.exception(e);
                 return;
             }
@@ -102,7 +102,7 @@ public class Tree implements Serializable {
                 --index;
             }
             node.addEntity(index, entity);// add new entity to node
-            this.changes.put(node.getName(), node);
+            this.changes.put(node.name(), node);
         } else {
             while (index > 0 && entity.compareTo(node.getEntity(index - 1)) == -1) {
                 --index;
@@ -136,11 +136,11 @@ public class Tree implements Serializable {
         }
 
 
-        parent.children[childNodeIndex + 1] = new Child(rightBrother.getName(), rightBrother);  //存储右子树指针
+        parent.children[childNodeIndex + 1] = new Child(rightBrother.name(), rightBrother);  //存储右子树指针
         parent.addEntity(childNodeIndex, fullNode.getEntity(Node.KEY_MIN));//把节点的中间值提到父节点
-        changes.put(parent.getName(), parent);
-        changes.put(fullNode.getName(), fullNode);
-        changes.put(rightBrother.getName(), rightBrother);
+        changes.put(parent.name(), parent);
+        changes.put(fullNode.name(), fullNode);
+        changes.put(rightBrother.name(), rightBrother);
     }
 
     private void moveEntities(Node left, Node right) {
@@ -162,12 +162,12 @@ public class Tree implements Serializable {
         Node newRoot = new Node(name);
         newRoot.isLeaf = false;
         root.setName(Util.getUuid()); // rename the node when it's not root
-        newRoot.children[0] = new Child(root.getName(), root);
+        newRoot.children[0] = new Child(root.name(), root);
         splitFullNode(newRoot, 0, root);
         Node oldRoot = root;
         root = newRoot;
-        changes.put(root.getName(), root);
-        changes.put(oldRoot.getName(), oldRoot);
+        changes.put(root.name(), root);
+        changes.put(oldRoot.name(), oldRoot);
     }
 
     private Entity search(Node node, int key) {

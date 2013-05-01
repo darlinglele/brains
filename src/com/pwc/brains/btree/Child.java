@@ -17,7 +17,7 @@ public class Child implements Serializable, Cloneable {
         if (this.node == null) {
             try {
                 this.node = Node.load(this.name);
-            } catch (NodeSerializationException e) {
+            } catch (ObjectSerializationException e) {
                 Console.exception("unable to get node from file name " + name, e);
             }
         }

@@ -19,7 +19,7 @@ public class Tree {
         if (word == "") {
             return false;
         }
-        if (word.charAt(0) != this.root.getLetter()) {
+        if (word.charAt(0) != this.root.letter()) {
             return false;
         }
         if (word.length() == 1) {
@@ -59,17 +59,17 @@ public class Tree {
             results.add(prefix);
         }
         for (Node childNode : node.children().values()) {
-            allWordsWith(results, childNode, prefix + childNode.getLetter());
+            allWordsWith(results, childNode, prefix + childNode.letter());
         }
     }
 
     private Node searchNodeByPrefix(Node node, String prefix) {
-        if (prefix == null || prefix.length() == 0 || prefix.charAt(0) != node.getLetter())
+        if (prefix == null || prefix.length() == 0 || prefix.charAt(0) != node.letter())
             return null;
         if (prefix.length() == 1) {
             return node;
         } else {
-            if (prefix.charAt(0) == node.getLetter()) {
+            if (prefix.charAt(0) == node.letter()) {
                 return searchNodeByPrefix(node.getChild(prefix.charAt(1)), prefix.substring(1));
             } else
                 return null;

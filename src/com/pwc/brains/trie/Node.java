@@ -11,7 +11,7 @@ public class Node {
         this.letter = c;
     }
 
-    public char getLetter() {
+    public char letter() {
         return letter;
     }
 
@@ -34,11 +34,19 @@ public class Node {
 
     @Override
     public boolean equals(Object o) {
-        if (o == null || !(o instanceof Node))
-            return false;
-        Node node = (Node) o;
+        if (o == null) {
+            throw new NullPointerException();
+        }
 
-        return node.getLetter() == node.getLetter();
+        Node node;
+        if (o instanceof Node) {
+            node = (Node) o;
+        }
+        else {
+            throw new ClassCastException();
+        }
+
+        return node.letter() == node.letter();
     }
 
     public boolean isWord() {

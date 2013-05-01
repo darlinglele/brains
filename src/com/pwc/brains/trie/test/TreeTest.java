@@ -12,7 +12,6 @@ import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertTrue;
 
 public class TreeTest {
-
     @Before
     public void setUp() throws Exception {
     }
