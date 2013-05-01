@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.UUID;
 
 public class Util {
-    static String getUuid() {
+    public static String getUuid() {
         return UUID.randomUUID().toString();
     }
 
