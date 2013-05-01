@@ -52,7 +52,7 @@ public class DictionaryTest {
     }
 
     @Test
-    public void loadDictionary2() throws LoadDictionaryException {
+    public void loadDictionary2() throws DictionarySerializationException {
         Dictionary dic = Dictionary.load("Chinese_Test");
         assertEquals(2, dic.letters().size());
         assertTrue(dic.letters().contains(new Letter('你')));

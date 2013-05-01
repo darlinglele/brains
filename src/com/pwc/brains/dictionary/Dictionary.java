@@ -21,7 +21,7 @@ public class Dictionary implements Serializable {
         return this.name;
     }
 
-    public static Dictionary load(String name) throws LoadDictionaryException {
+    public static Dictionary load(String name) throws DictionarySerializationException {
         return (Dictionary) Util.deserialize(name);
     }
 
