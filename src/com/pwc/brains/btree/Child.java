@@ -18,7 +18,7 @@ public class Child implements Serializable, Cloneable {
             try {
                 this.node = Node.load(this.name);
             } catch (ObjectSerializationException e) {
-                Console.exception("unable to get node from file name " + name, e);
+                Console.exception("unable to length node from file name " + name, e);
             }
         }
         return this.node;

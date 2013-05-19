@@ -15,10 +15,10 @@ public class Backpack {
 
         int[][] prices = new int[goods.length + 1][capacity + 1];
 
-        for (int i = 1; i < goods.length + 1; i++) {
+        for (int i = 1; i <= goods.length; i++) {
             int v = goods[i - 1].volume();
             int p = goods[i - 1].price();
-            for (int c = 0; c < capacity + 1; c++) {
+            for (int c = 0; c <= capacity; c++) {
                 if (c < v) {
                     prices[i][c] = prices[i - 1][c];
                 } else {
