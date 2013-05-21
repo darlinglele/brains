@@ -1,16 +1,21 @@
 package com.pwc.hotel.test;
 
 import com.pwc.hotel.Hotel;
+import com.pwc.hotel.HotelRepository;
 import com.pwc.hotel.IRepository;
-import com.pwc.hotel.RepositoryFactory;
+import com.pwc.test.TestBase;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
 
-public class HotelRepositoryTest {
+public class HotelRepositoryTest extends TestBase {
+
+
     @Test
     public void testGetHotel() throws Exception {
-        IRepository repository = RepositoryFactory.getInstance();
+        createHotelsData();
+        IRepository repository = new HotelRepository("hotels.xml");
+        gc.add("hotels.xml");
         Hotel[] expected = new Hotel[6];
         expected[0] = new Hotel("LakeWood", "Regular", 3, new int[]{110, 110, 110, 110, 110, 80, 80});
         expected[1] = new Hotel("LakeWood", "Rewards", 3, new int[]{110, 110, 110, 110, 110, 80, 80});
@@ -24,8 +29,7 @@ public class HotelRepositoryTest {
         }
     }
 
-    @Test
-    public void testSave() throws Exception {
+    private void createHotelsData() throws Exception {
         Hotel[] hotels = new Hotel[6];
         hotels[0] = new Hotel("LakeWood", "Regular", 3, new int[]{110, 110, 110, 110, 110, 80, 80});
         hotels[1] = new Hotel("LakeWood", "Rewards", 3, new int[]{110, 110, 110, 110, 110, 80, 80});
@@ -33,7 +37,7 @@ public class HotelRepositoryTest {
         hotels[3] = new Hotel("BridgeWood", "Rewards", 4, new int[]{110, 110, 110, 110, 110, 80, 80});
         hotels[4] = new Hotel("RidgeWood", "Regular", 5, new int[]{110, 110, 110, 110, 110, 80, 80});
         hotels[5] = new Hotel("RidgeWood", "Rewards", 5, new int[]{110, 110, 110, 110, 110, 80, 80});
-        IRepository repository = RepositoryFactory.getInstance();
+        IRepository repository = new HotelRepository("hotels.xml");
         repository.save(hotels);
     }
 }

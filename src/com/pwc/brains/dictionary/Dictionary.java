@@ -1,6 +1,7 @@
 package com.pwc.brains.dictionary;
 
 import com.pwc.brains.Util;
+import com.pwc.brains.btree.ObjectSerializationException;
 
 import java.io.Serializable;
 import java.util.Collection;
@@ -21,7 +22,7 @@ public class Dictionary implements Serializable {
         return this.name;
     }
 
-    public static Dictionary load(String name) throws DictionarySerializationException {
+    public static Dictionary load(String name) throws ObjectSerializationException {
         return (Dictionary) Util.deserialize(name);
     }
 

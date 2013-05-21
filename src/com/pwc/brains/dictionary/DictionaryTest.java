@@ -1,6 +1,8 @@
 package com.pwc.brains.dictionary;
 
 import com.pwc.brains.Util;
+import com.pwc.brains.btree.ObjectSerializationException;
+import com.pwc.test.TestBase;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,7 +13,7 @@ import java.util.Collection;
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertTrue;
 
-public class DictionaryTest {
+public class DictionaryTest extends TestBase {
     @Before
     public void setUp() throws Exception {
 
@@ -33,29 +35,36 @@ public class DictionaryTest {
         String word = "你好";
         Dictionary dic = new Dictionary("Chinese");
         dic.put(word);
-        Collection<Letter> expected_lettes = new ArrayList<Letter>();
-        expected_lettes.add(new Letter('你'));
-        expected_lettes.add(new Letter('好'));
+        Collection<Letter> expected = new ArrayList<Letter>();
+        expected.add(new Letter('你'));
+        expected.add(new Letter('好'));
 
-        assertEquals(expected_lettes.size(), dic.letters().size());
+        assertEquals(expected.size(), dic.letters().size());
         for (Letter c : dic.letters()) {
-            assertEquals(true, expected_lettes.contains(c));
+            assertEquals(true, expected.contains(c));
         }
     }
 
     @Test
-    public void saveDictionary() throws Exception {
-        Dictionary dic = new Dictionary("Chinese");
-        dic.put("你好");
-        dic.save();
-        assertTrue(Util.isFileExists("Chinese"));
-    }
-
-    @Test
-    public void loadDictionary2() throws DictionarySerializationException {
-        Dictionary dic = Dictionary.load("Chinese_Test");
+    public void loadDictionary2() throws DictionarySerializationException, ObjectSerializationException {
+        String name = "Chinese";
+        gc.add(name);
+        createDictionary(name);
+        Dictionary dic = Dictionary.load(name);
         assertEquals(2, dic.letters().size());
         assertTrue(dic.letters().contains(new Letter('你')));
         assertTrue(dic.letters().contains(new Letter('好')));
+    }
+
+
+    public void createDictionary(String name) {
+        Dictionary dic = new Dictionary(name);
+        dic.put("你好");
+        try {
+            dic.save();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        assertTrue(Util.isFileExists(name));
     }
 }

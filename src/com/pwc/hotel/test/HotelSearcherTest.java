@@ -1,7 +1,6 @@
 package com.pwc.hotel.test;
 
 import com.pwc.hotel.Hotel;
-import com.pwc.hotel.HotelRepository;
 import com.pwc.hotel.HotelSearcher;
 import com.pwc.hotel.IRepository;
 import org.easymock.EasyMock;

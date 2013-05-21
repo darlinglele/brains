@@ -10,7 +10,7 @@ public class Console {
     }
 
     public static void exception(Exception e) {
-
+        e.printStackTrace();
     }
 
     public static void exception(String message, Exception e) {

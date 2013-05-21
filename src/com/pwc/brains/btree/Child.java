@@ -2,6 +2,7 @@ package com.pwc.brains.btree;
 
 import com.pwc.brains.Console;
 
+import java.io.IOException;
 import java.io.Serializable;
 
 public class Child implements Serializable, Cloneable {
@@ -19,6 +20,8 @@ public class Child implements Serializable, Cloneable {
                 this.node = Node.load(this.name);
             } catch (ObjectSerializationException e) {
                 Console.exception("unable to length node from file name " + name, e);
+            } catch (IOException e) {
+                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
             }
         }
         return this.node;

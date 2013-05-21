@@ -48,16 +48,29 @@ public class Util {
         }
     }
 
-    public static Object deserialize(String fileName) {
+    public static void serialize(String fileName, Object node, String type) throws ObjectSerializationException {
+        if (type == "xml") {
+
+        }
+    }
+
+    public static Object deserialize(String fileName) throws ObjectSerializationException {
         Object object = null;
+        FileInputStream input = null;
         try {
-            FileInputStream input = new FileInputStream(fileName);
+            input = new FileInputStream(fileName);
             ObjectInputStream objInput = new ObjectInputStream(input);
             object = (Object) objInput.readObject();
             return object;
         } catch (Exception e) {
             throw new ObjectSerializationException("Unable to load the node from file:", e);
         } finally {
+            if (input != null)
+                try {
+                    input.close();
+                } catch (IOException e) {
+                    e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                }
             return object;
         }
     }

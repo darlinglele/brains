@@ -11,12 +11,16 @@ public class HotelSearcher {
 
     }
 
-    public static synchronized HotelSearcher getInstance() {
+    public static HotelSearcher getInstance() {
         if (instance == null) {
-            instance = new HotelSearcher();
+            synchronized (object) {
+                instance = new HotelSearcher();
+            }
         }
         if (instance.repository == null) {
-            instance.setRepository(RepositoryFactory.getInstance());
+            synchronized (object) {
+                instance.setRepository(RepositoryFactory.getInstance());
+            }
         }
 
         return instance;
@@ -42,11 +46,12 @@ public class HotelSearcher {
             for (int j = 0; j < 7; j++) {
                 sum += hotels[i].price(j) * condition.days[j];
             }
-            if (sum <= min) {
+            if (sum == min && hotels[i].rating() > rating) {
+                result = hotels[i];
+            }
+            if (sum < min) {
                 min = sum;
-                if (hotels[i].rating() > rating) {
-                    result = hotels[i];
-                }
+                result = hotels[i];
             }
         }
         return result;

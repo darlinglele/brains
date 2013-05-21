@@ -2,6 +2,6 @@ package com.pwc.hotel;
 
 public class RepositoryFactory {
     public static IRepository getInstance() {
-        return null;
+        return new HotelRepository("hotels.xml");
     }
 }

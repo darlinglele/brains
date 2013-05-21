@@ -60,4 +60,4 @@ public class Condition {
         }
         return true;
     }
-}
+    }

@@ -23,7 +23,7 @@ public class BinaryObject {
         return length;
     }
 
-    public static void saveIntArrayToBinaryFile(int[] a, String fileName) throws IOException {
+    public static void write(int[] a, String fileName) throws IOException {
         DataOutputStream out = new DataOutputStream(new FileOutputStream(fileName));
         int off = 0;
         int BUFFER_SIZE = 1024 * 1024;            // 1M
@@ -71,12 +71,12 @@ public class BinaryObject {
     public static void generateRandomNumber(int from, int to, String fileName) throws IOException {
         int[] a = getIntArray(from, to);
         Array.shuffle(a);
-        BinaryObject.saveIntArrayToBinaryFile(a, fileName);
+        BinaryObject.write(a, fileName);
     }
 
     public static void generateOrderNumber(int from, int to, String fileName) throws IOException {
         int[] a = getIntArray(from, to);
-        BinaryObject.saveIntArrayToBinaryFile(a, fileName);
+        BinaryObject.write(a, fileName);
     }
 
     private static int[] getIntArray(int from, int to) {
@@ -105,7 +105,5 @@ public class BinaryObject {
         return Convert.BytesToIntArray(bytes);
     }
 
-    public static void write(int[] array, String s) {
 
-    }
 }

@@ -1,5 +1,6 @@
 package com.pwc.hotel;
 
+import com.pwc.brains.Console;
 import com.pwc.brains.Util;
 import com.pwc.brains.btree.ObjectSerializationException;
 
@@ -9,8 +10,13 @@ public class HotelRepository implements IRepository, Serializable {
     private long serialVersionUID = 232332421;
     private Hotel[] hotels;
 
-    public HotelRepository() {
-        HotelRepository repository = (HotelRepository) Util.deserialize("hotels.xml");
+    public HotelRepository(String xml) {
+        HotelRepository repository = null;
+        try {
+            repository = (HotelRepository) Util.deserialize(xml);
+        } catch (ObjectSerializationException e) {
+            Console.exception(e);
+        }
         if (repository != null) {
             hotels = repository.getHotel();
         }

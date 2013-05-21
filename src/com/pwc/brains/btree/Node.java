@@ -65,7 +65,7 @@ public class Node implements Serializable, Cloneable {
         }
     }
 
-    public static Node load(String file) throws ObjectSerializationException {
+    public static Node load(String file) throws ObjectSerializationException, IOException {
         return (Node) Util.deserialize(INDEX_FILE_DIR + String.valueOf(file));
     }
 

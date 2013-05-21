@@ -3,33 +3,41 @@ package com.pwc.brains.btree;
 import com.pwc.brains.Console;
 import com.pwc.brains.Util;
 
+import java.io.IOException;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
+
 public class Tree implements Serializable {
+    public static final String SUFFIX = "-Tree";
+    private long serialVersionUID = 232334343;
     private String name;
     private Node root;
-    private int sizeOfEntity;
-    private int sizeOfNode;
     private HashMap<String, Node> changes;
+    private int size;
+    private Node currentNode;
 
     public Tree(String name) {
         this.name = name;
         changes = new HashMap<String, Node>();
+        getBasicInfo();
     }
 
     public void load() {
         try {
             this.root = Node.load(this.name);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         } catch (ObjectSerializationException e) {
-            Console.exception("unable to load the tree root from file:" + this.name, e);
+            Console.exception(e);
         }
     }
 
-    public void save() {
+
+    public void save() throws ObjectSerializationException {
         Iterator iterator = changes.entrySet().iterator();
         while (iterator.hasNext()) {
             Map.Entry entry = (Map.Entry) iterator.next();
@@ -42,17 +50,25 @@ public class Tree implements Serializable {
                 return;
             }
         }
+        Tree.save((Tree) this.clone());
         changes.clear();
     }
 
     public Entity search(int key) {
         if (this.root == null) {
-            return null;
+            this.load();
         }
         return search(this.root, key);
     }
 
     public boolean insert(Entity entity) {
+        Entity result = this.search(entity.getKey());
+        if (result != null) {
+            changes.put(currentNode.name(), currentNode);
+            update(result, entity);
+            return true;
+        }
+
         if (root == null) {
             root = new Node(name);
         }
@@ -62,8 +78,20 @@ public class Tree implements Serializable {
         }
 
         insertNonFull(root, entity);
+        this.increase();
         return true;
+    }
 
+    public int size() {
+        return this.size;
+    }
+
+    @Override
+    public Object clone() {
+        Tree tree = new Tree(this.name);
+        tree.size = this.size;
+
+        return tree;
     }
 
     public void print() {
@@ -92,6 +120,14 @@ public class Tree implements Serializable {
 
             System.out.println("");  // new line for next level printing
         }
+    }
+
+    private Entity update(Entity target, Entity entity) {
+        return target.put(entity);
+    }
+
+    private void increase() {
+        this.size++;
     }
 
     private void insertNonFull(Node node, Entity entity) {
@@ -135,7 +171,6 @@ public class Tree implements Serializable {
 
         }
 
-
         parent.children[childNodeIndex + 1] = new Child(rightBrother.name(), rightBrother);  //存储右子树指针
         parent.addEntity(childNodeIndex, fullNode.getEntity(Node.KEY_MIN));//把节点的中间值提到父节点
         changes.put(parent.name(), parent);
@@ -152,8 +187,7 @@ public class Tree implements Serializable {
     }
 
     private void moveChildren(Node origin, Node rightNode) {
-        int i;
-        for (i = 0; i < Node.M; ++i) {
+        for (int i = 0; i < Node.M; ++i) {
             rightNode.children[i] = origin.children[i + Node.M];
         }
     }
@@ -171,10 +205,12 @@ public class Tree implements Serializable {
     }
 
     private Entity search(Node node, int key) {
-        node.print();
-        System.out.println("");
+        if (node == null) {
+            return null;
+        }
         int index = node.indexOf(key);
         if (index != -1) {
+            currentNode = node;
             return node.getEntity(index);
         }
 
@@ -187,5 +223,26 @@ public class Tree implements Serializable {
         while (i > 0 && key < node.getEntity(i - 1).getKey())
             i--;
         return search(node.children[i].getNode(), key);
+    }
+
+    private void getBasicInfo() {
+        Tree tree = (Tree) Load(this.name);
+        if (tree != null)
+            this.size = tree.size();
+    }
+
+    private static void save(Tree tree) throws ObjectSerializationException {
+        Util.serialize(tree.name + SUFFIX, tree);
+    }
+
+    private static Tree Load(String fileName) {
+        fileName = fileName + SUFFIX;
+        Tree tree = null;
+        try {
+            tree = (Tree) Util.deserialize(String.valueOf(fileName));
+        } catch (ObjectSerializationException e) {
+            Console.exception(e);
+        }
+        return tree;
     }
 }
