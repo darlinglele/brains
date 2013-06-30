@@ -5,9 +5,9 @@ import com.pwc.brains.Util;
 import java.io.*;
 
 public class Node implements Serializable, Cloneable {
-    private static final String INDEX_FILE_DIR = "";
+    public static String INDEX_FILE_DIR = "";
     private long serialVersionUID = 232334343;
-    public static int M = 10;
+    public static int M = 1000;
     public static int KEY_MAX = 2 * M - 1;
     public static int KEY_MIN = M - 1;
     public static int CHILD_MAX = KEY_MAX + 1;

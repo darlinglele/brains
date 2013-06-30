@@ -1,7 +1,9 @@
 package com.pwc.brains.trie.test;
 
+import com.pwc.brains.btree.ObjectSerializationException;
 import com.pwc.brains.trie.Node;
 import com.pwc.brains.trie.Tree;
+import com.pwc.test.TestBase;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,7 +13,7 @@ import java.util.ArrayList;
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertTrue;
 
-public class TreeTest {
+public class TreeTest extends TestBase {
     @Before
     public void setUp() throws Exception {
     }
@@ -81,6 +83,7 @@ public class TreeTest {
         for (String word : worlds) {
             tree.insert(word);
         }
+
         String prefix = "你";
         ArrayList<String> results = tree.search(prefix);
         assertEquals(worlds.length, results.size());
@@ -88,4 +91,48 @@ public class TreeTest {
             assertTrue(results.contains(word));
         }
     }
+
+    @Test
+    public void searchWords2() {
+        String[] worlds = new String[]{"你", "你好", "你好吗", "你好坏", "你好毒", "你们", "你们好", "你妹"};
+        Tree tree = new Tree(worlds[0]);
+        for (String word : worlds) {
+            tree.insert(word);
+        }
+        String prefix = "你好";
+        ArrayList<String> results = tree.search(prefix);
+        String[] expected = new String[]{"你好", "你好吗", "你好坏", "你好毒"};
+        assertEquals(expected.length, results.size());
+        for (String word : expected) {
+            assertTrue(results.contains(word));
+        }
+    }
+
+    @Test
+    public void load() throws ObjectSerializationException {
+         Tree tree =  Tree.load("你.dic");
+        ArrayList<String> results= tree.search("你");
+        String[] worlds = new String[]{"你", "你好", "你好吗", "你好坏", "你好毒", "你们", "你们好", "你妹"};
+        assertEquals(worlds.length, results.size());
+        for (String word : worlds) {
+            assertTrue(results.contains(word));
+        }
+
+    }
+
+    @Test
+    public void save() throws ObjectSerializationException {
+        String[] worlds = new String[]{"你", "你好", "你好吗", "你好坏", "你好毒", "你们", "你们好", "你妹"};
+        Tree tree = new Tree(worlds[0]);
+        for (String word : worlds) {
+            tree.insert(word);
+        }
+       String fileName =  "ni.dic";
+       gc.add(fileName);
+       tree.save(fileName);
+    }
+
+
+
+
 }

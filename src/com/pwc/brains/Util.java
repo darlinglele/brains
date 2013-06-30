@@ -79,4 +79,41 @@ public class Util {
         File f = new File(path);
         return f.exists();
     }
+
+    public static void Print(int[][] prices) {
+        int h = prices[0].length;
+        int v = prices.length;
+        for (int i = -1; i < v; i++) {
+            if (i == -1) {
+                printHead(h);
+            } else {
+                print(prices[i]);
+            }
+            System.out.println("");
+        }
+
+    }
+
+    private static void printHead(int h) {
+        for (int i = 0; i < h; i++) {
+            System.out.print(i + blank(String.valueOf(i)));
+        }
+    }
+
+    private static void print(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + blank(String.valueOf(array[i])));
+        }
+    }
+
+    private static String blank(String s) {
+        int total = 5;
+        String result = "";
+        for (int i = 0; i < total - s.length(); i++) {
+            result += " ";
+        }
+        return result;
+    }
+
+
 }

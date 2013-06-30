@@ -30,6 +30,6 @@ public class Letter implements Serializable {
 
     @Override
     public int hashCode() {
-        return 13 * 7 * this.name;
+        return this.name;
     }
 }

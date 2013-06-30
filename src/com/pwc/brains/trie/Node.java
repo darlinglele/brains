@@ -1,10 +1,12 @@
 package com.pwc.brains.trie;
 
+import java.io.Serializable;
 import java.util.HashMap;
 
-public class Node {
+public class Node implements Serializable {
     private final char letter;
     private boolean isWord = false;
+    private long serialVersionUID = 3334143;
     private HashMap<Character, Node> children = new HashMap<Character, Node>();
 
     public Node(char c) {

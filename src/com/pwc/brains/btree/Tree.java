@@ -37,7 +37,7 @@ public class Tree implements Serializable {
     }
 
 
-    public void save() throws ObjectSerializationException {
+    public void save() {
         Iterator iterator = changes.entrySet().iterator();
         while (iterator.hasNext()) {
             Map.Entry entry = (Map.Entry) iterator.next();
@@ -50,7 +50,11 @@ public class Tree implements Serializable {
                 return;
             }
         }
-        Tree.save((Tree) this.clone());
+        try {
+            Tree.save((Tree) this.clone());
+        } catch (ObjectSerializationException e) {
+            Console.exception(e);
+        }
         changes.clear();
     }
 
@@ -59,6 +63,11 @@ public class Tree implements Serializable {
             this.load();
         }
         return search(this.root, key);
+    }
+
+
+    public boolean contains(int i) {
+        return search(i) != null;
     }
 
     public boolean insert(Entity entity) {
@@ -123,7 +132,7 @@ public class Tree implements Serializable {
     }
 
     private Entity update(Entity target, Entity entity) {
-        return target.put(entity);
+        return target.merge(entity);
     }
 
     private void increase() {
@@ -245,4 +254,5 @@ public class Tree implements Serializable {
         }
         return tree;
     }
+
 }

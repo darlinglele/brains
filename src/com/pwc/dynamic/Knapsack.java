@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Knapsack {
     private final int capacity;
-    private int[][] records;
+    protected int[][] records;
 
     public Knapsack(int capacity) {
         this.capacity = capacity;
@@ -15,7 +15,7 @@ public class Knapsack {
         return this.capacity;
     }
 
-    public int calculate(Goods[] goods) {
+    public synchronized int calculate(Goods[] goods) {
         records = new int[goods.length + 1][capacity + 1];
         for (int i = 1; i <= goods.length; i++) {
             int size = goods[i - 1].size();
@@ -24,18 +24,20 @@ public class Knapsack {
                 if (c < size) {
                     records[i][c] = records[i - 1][c];
                 } else {
-                    records[i][c] = max(records[i - 1][c], records[i - 1][c - size] + price);
+                    records[i][c] = max(i, size, price, c);
                 }
             }
         }
         return records[goods.length][capacity];
     }
 
-    private int max(int i, int j) {
-        return i > j ? i : j;
+    protected int max(int index, int size, int price, int capacity) {
+        int a = records[index - 1][capacity];
+        int b = records[index - 1][capacity - size] + price;
+        return a > b ? a : b;
     }
 
-    public Goods[] best(Goods[] goods) {
+    public synchronized Goods[] best(Goods[] goods) {
         calculate(goods);
         int indexOfCapacity = records[0].length - 1;
         int indexOfGoods = records.length - 1;

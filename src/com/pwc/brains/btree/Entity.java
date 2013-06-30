@@ -66,11 +66,19 @@ public class Entity implements Comparable, Serializable {
     }
 
     public void put(Item item) {
+        if (this.contains(item)) {
+            return;
+        }
         this.items.add(item);
     }
 
-    public Entity put(Entity entity) {
+    public boolean contains(Item item) {
+        return this.items.contains(item);
+    }
+
+    public Entity merge(Entity entity) {
         this.items.addAll(entity.items);
         return this;
     }
+
 }

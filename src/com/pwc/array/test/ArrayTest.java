@@ -41,5 +41,30 @@ public class ArrayTest {
         assertTrue(Array.compare(expect, actual));
     }
 
+    @Test
+    public void test() {
+        byte a = 81;
+        for (; a > 0; --a) {
+            if (a / 9 % 3 == a % 3) {
+                continue;
+            }
+            System.out.println(a / 9 + ": " + a % 9);
+        }
+    }
+
+    @Test
+    public void test2() {
+        byte a = 9;
+        for (; a > 0; --a) {
+            byte b = 9;
+            for (; b > 0; --b) {
+                if (b % a == 0) {
+                    continue;
+                }
+                System.out.println(a + ": " + b);
+            }
+        }
+    }
+
 
 }
