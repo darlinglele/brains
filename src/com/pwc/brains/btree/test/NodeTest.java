@@ -40,7 +40,7 @@ public class NodeTest {
 //    @Test(expected = ObjectSerializationException.class)
 //    public void loadNodeFromFileUnreachable() throws ObjectSerializationException {
 //        String unreachableFile = "";
-//        Node.load(unreachableFile);
+//        Node.loadDictionary(unreachableFile);
 //    }
 
     private void setEntities(Node node) {

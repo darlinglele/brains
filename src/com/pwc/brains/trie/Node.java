@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class Node implements Serializable {
     private final char letter;
-    private boolean isWord = false;
+    private boolean bound = false;
     private long serialVersionUID = 3334143;
     private HashMap<Character, Node> children = new HashMap<Character, Node>();
 
@@ -52,11 +52,11 @@ public class Node implements Serializable {
     }
 
     public boolean isWord() {
-        return isWord;
+        return bound;
     }
 
     public void setWord(boolean word) {
-        isWord = word;
+        bound = word;
     }
 
     public boolean contains(char c) {

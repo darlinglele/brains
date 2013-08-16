@@ -63,7 +63,7 @@ public class Util {
             object = (Object) objInput.readObject();
             return object;
         } catch (Exception e) {
-            throw new ObjectSerializationException("Unable to load the node from file:", e);
+            throw new ObjectSerializationException("Unable to loadDictionary the node from file:", e);
         } finally {
             if (input != null)
                 try {

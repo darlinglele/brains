@@ -2,36 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fcd6262-51d0-4c2b-87df-db955a24d765" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwc/dynamic/Change.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwc/dynamic/ChangeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwc/dynamic/Knapsack2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwc/dynamic/Knapsack2Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwc/collect/Collection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwc/collect/test/CollectionTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwc/collect/EachFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwc/collect/FilterFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwc/brains/tool/Knife.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwc/brains/tool/KnifeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwc/collect/MapFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwc/brains/compiler/Scanner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwc/brains/compiler/State.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwc/brains/compiler/SymbolCollection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwc/brains/compiler/Token.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwc/brains/compiler/Type.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pwc/brains/compiler/scannerTest.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Chinese_Test" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/btree.cpp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/hotels.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/main.cpp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pwc/array/test/ArrayTest.java" afterPath="$PROJECT_DIR$/src/com/pwc/array/test/ArrayTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pwc/io/DataInputBufferStream.java" afterPath="$PROJECT_DIR$/src/com/pwc/io/DataInputBufferStream.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/new.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chinese.dic" afterPath="$PROJECT_DIR$/chinese.dic" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pwc/brains/dictionary/Dictionary.java" afterPath="$PROJECT_DIR$/src/com/pwc/brains/dictionary/Dictionary.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pwc/brains/dictionary/DictionaryTest.java" afterPath="$PROJECT_DIR$/src/com/pwc/brains/dictionary/DictionaryTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pwc/brains/btree/Entity.java" afterPath="$PROJECT_DIR$/src/com/pwc/brains/btree/Entity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pwc/brains/btree/test/ItemTest.java" afterPath="$PROJECT_DIR$/src/com/pwc/brains/btree/test/ItemTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pwc/dynamic/Knapsack.java" afterPath="$PROJECT_DIR$/src/com/pwc/dynamic/Knapsack.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pwc/brains/dictionary/Letter.java" afterPath="$PROJECT_DIR$/src/com/pwc/brains/dictionary/Letter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pwc/brains/btree/Node.java" afterPath="$PROJECT_DIR$/src/com/pwc/brains/btree/Node.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pwc/brains/trie/Node.java" afterPath="$PROJECT_DIR$/src/com/pwc/brains/trie/Node.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pwc/brains/btree/Tree.java" afterPath="$PROJECT_DIR$/src/com/pwc/brains/btree/Tree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pwc/brains/trie/Tree.java" afterPath="$PROJECT_DIR$/src/com/pwc/brains/trie/Tree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pwc/brains/btree/test/TreeTest.java" afterPath="$PROJECT_DIR$/src/com/pwc/brains/btree/test/TreeTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pwc/brains/trie/test/TreeTest.java" afterPath="$PROJECT_DIR$/src/com/pwc/brains/trie/test/TreeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pwc/brains/btree/test/NodeTest.java" afterPath="$PROJECT_DIR$/src/com/pwc/brains/btree/test/NodeTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pwc/brains/Util.java" afterPath="$PROJECT_DIR$/src/com/pwc/brains/Util.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brains.iml" afterPath="$PROJECT_DIR$/brains.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/easymock_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/easymock_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="brains.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1372600202785" ignored="false" />
-    <file path="/fragment.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1372603437088" ignored="false" />
+    <file path="/Dummy.txt" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1376628992629" ignored="false" />
+    <file path="/fragment.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1375874130311" ignored="false" />
     <file path="/TreeTest.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1372556341974" ignored="false" />
     <file path="/Entity.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1369188392211" ignored="false" />
     <file path="/EntityTest.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1369188453505" ignored="false" />
@@ -48,11 +51,24 @@
     <file path="/ArrayTest.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1370516743989" ignored="false" />
     <file path="/Tree.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1372603134082" ignored="false" />
     <file path="/Node.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1372546951174" ignored="false" />
-    <file path="/Dictionary.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1372603590857" ignored="false" />
-    <file path="/DictionaryTest.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1372603761855" ignored="false" />
+    <file path="/Dictionary.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1372773846838" ignored="false" />
+    <file path="/DictionaryTest.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1375874114543" ignored="false" />
     <file path="/DataInputBufferStream.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1372576802205" ignored="false" />
     <file path="/File.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1372576841245" ignored="false" />
     <file path="/Letter.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1372601659238" ignored="false" />
+    <file path="/Simplexk.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1374313710929" ignored="false" />
+    <file path="/SimplexkTest.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1372778619295" ignored="false" />
+    <file path="/scanner.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1373253499117" ignored="false" />
+    <file path="/Scanner.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1374898953976" ignored="false" />
+    <file path="/scannerTest.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1375172441739" ignored="false" />
+    <file path="/MyCollection.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1374224461272" ignored="false" />
+    <file path="/MyCollectionTest.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1374308404771" ignored="false" />
+    <file path="/ExtensionList.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1374312534840" ignored="false" />
+    <file path="/Collection.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1374312533709" ignored="false" />
+    <file path="/CollectionTest.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1374313038923" ignored="false" />
+    <file path="/Token.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1374898178588" ignored="false" />
+    <file path="/code.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1374899669757" ignored="false" />
+    <file path="/Calculator.java" changelist="9fcd6262-51d0-4c2b-87df-db955a24d765" time="1375874156063" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,36 +123,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/pwc/brains/dictionary/DictionaryTest.java" line="87" class="com.pwc.brains.dictionary.DictionaryTest" package="com.pwc.brains.dictionary">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/pwc/brains/dictionary/DictionaryTest.java" line="96" class="com.pwc.brains.dictionary.DictionaryTest" package="com.pwc.brains.dictionary">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -146,95 +134,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DictionaryTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Knife.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/tool/Knife.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scannerTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/compiler/scannerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="13" selection-start="254" selection-end="254" vertical-scroll-proportion="0.1789976">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scanner.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/compiler/Scanner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectionTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pwc/collect/test/CollectionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="7" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#891#899#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KnifeTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/tool/KnifeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pwc/collect/Collection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="22" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EachFunction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pwc/collect/EachFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConditionTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pwc/hotel/test/ConditionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="52" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SymbolCollection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/compiler/SymbolCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DictionaryTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/dictionary/DictionaryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="31" selection-start="3221" selection-end="3221" vertical-scroll-proportion="0.5882353">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="File.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pwc/io/File.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="27" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dictionary.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/dictionary/Dictionary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="37" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#410#424#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashMap.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="313" column="13" selection-start="11758" selection-end="11758" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Letter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/dictionary/Letter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tree.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/trie/Tree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="35" selection-start="2218" selection-end="2218" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1594#1602#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/trie/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="-6.6">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RunAfters.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/statements/RunAfters.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="16" selection-start="612" selection-end="612" vertical-scroll-proportion="-7.8">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockJUnit4ClassRunner.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="41" column="60" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -258,22 +245,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/pwc/dynamic/test/KnapsackTest.java" />
-        <option value="$PROJECT_DIR$/src/com/pwc/dynamic/Knapsack2Test.java" />
-        <option value="$PROJECT_DIR$/src/com/pwc/dynamic/Knapsack2.java" />
-        <option value="$PROJECT_DIR$/src/com/pwc/dynamic/Knapsack.java" />
-        <option value="$PROJECT_DIR$/src/com/pwc/dynamic/Change.java" />
-        <option value="$PROJECT_DIR$/src/com/pwc/dynamic/ChangeTest.java" />
-        <option value="$PROJECT_DIR$/src/com/pwc/array/test/ArrayTest.java" />
-        <option value="$PROJECT_DIR$/src/com/pwc/brains/trie/Node.java" />
-        <option value="$PROJECT_DIR$/src/com/pwc/brains/trie/test/TreeTest.java" />
-        <option value="$PROJECT_DIR$/src/com/pwc/io/DataInputBufferStream.java" />
-        <option value="$PROJECT_DIR$/src/com/pwc/io/File.java" />
-        <option value="$PROJECT_DIR$/src/com/pwc/brains/dictionary/DictionaryTest (localhost's conflicted copy 2013-06-30).java" />
-        <option value="$PROJECT_DIR$/src/com/pwc/brains/dictionary/Letter.java" />
-        <option value="$PROJECT_DIR$/src/com/pwc/brains/trie/Tree.java" />
-        <option value="$PROJECT_DIR$/src/com/pwc/brains/dictionary/Dictionary.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/collect/test/MyCollectionTest.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/collect/Collection.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/brains/Simplexk.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/brains/Knife.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/brains/KnifeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/brains/tool/KnifeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/brains/compiler/Token.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/brains/compiler/code.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/brains/compiler/Scanner.java" />
+        <option value="$PROJECT_DIR$/code.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/brains/dictionary/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/brains/dictionary/Calculator1.java" />
         <option value="$PROJECT_DIR$/src/com/pwc/brains/dictionary/DictionaryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/brains/compiler/scannerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/hotel/test/ConditionTest.java" />
+        <option value="$PROJECT_DIR$/src/com/pwc/collect/test/CollectionTest.java" />
       </list>
     </option>
   </component>
@@ -311,6 +298,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -351,143 +339,135 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brains" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brains" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pwc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="string" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brains" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brains" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pwc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brains" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brains" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pwc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brains" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brains" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brains" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pwc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brains" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dictionary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Project" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/guava-14.0.1-sources.jar!/" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
+  </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.pwc.dynamic" />
-      <recent name="com.pwc.brains.btree.test" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.pwc.brains.compiler" />
+      <recent name="com.pwc.brains" />
+      <recent name="com.pwc.dynamic" />
+      <recent name="com.pwc.brains.btree.test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pwc.dynamic" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.pwc.brains.dictionary" />
+      <recent name="com.pwc.brains.compiler" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/pwc/brains/compiler" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.DictionaryTest.addWord">
-    <configuration default="false" name="DictionaryTest.findWords" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+  <component name="RunManager" selected="JUnit.ConditionTest.testParseWhenOverOneWeek">
+    <configuration default="false" name="DictionaryTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pwc.brains.dictionary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="brains" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.pwc.brains.dictionary" />
       <option name="MAIN_CLASS_NAME" value="com.pwc.brains.dictionary.DictionaryTest" />
-      <option name="METHOD_NAME" value="findWords" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DictionaryTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pwc.brains.dictionary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="brains" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pwc.brains.dictionary" />
+      <option name="MAIN_CLASS_NAME" value="com.pwc.brains.dictionary.DictionaryTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CollectionTest.filterFunctionTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pwc.collect.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="brains" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pwc.collect.test" />
+      <option name="MAIN_CLASS_NAME" value="com.pwc.collect.test.CollectionTest" />
+      <option name="METHOD_NAME" value="filterFunctionTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -504,54 +484,23 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="DictionaryTest.load" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="brains" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.pwc.brains.dictionary" />
-      <option name="MAIN_CLASS_NAME" value="com.pwc.brains.dictionary.DictionaryTest" />
-      <option name="METHOD_NAME" value="load" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DictionaryTest.loadDictionary2" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="CollectionTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.pwc.brains.dictionary.*" />
+          <option name="PATTERN" value="com.pwc.collect.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="brains" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.pwc.brains.dictionary" />
-      <option name="MAIN_CLASS_NAME" value="com.pwc.brains.dictionary.DictionaryTest" />
-      <option name="METHOD_NAME" value="loadDictionary2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.pwc.collect.test" />
+      <option name="MAIN_CLASS_NAME" value="com.pwc.collect.test.CollectionTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -566,47 +515,19 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="DictionaryTest.testInitDictionary" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="ConditionTest.testParseWhenOverOneWeek" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.pwc.brains.dictionary.*" />
+          <option name="PATTERN" value="com.pwc.hotel.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="brains" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.pwc.brains.dictionary" />
-      <option name="MAIN_CLASS_NAME" value="com.pwc.brains.dictionary.DictionaryTest" />
-      <option name="METHOD_NAME" value="testInitDictionary" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DictionaryTest.addWord" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.pwc.brains.dictionary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="brains" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.pwc.brains.dictionary" />
-      <option name="MAIN_CLASS_NAME" value="com.pwc.brains.dictionary.DictionaryTest" />
-      <option name="METHOD_NAME" value="addWord" />
+      <option name="PACKAGE_NAME" value="com.pwc.hotel.test" />
+      <option name="MAIN_CLASS_NAME" value="com.pwc.hotel.test.ConditionTest" />
+      <option name="METHOD_NAME" value="testParseWhenOverOneWeek" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -714,19 +635,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DictionaryTest.findWords" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DictionaryTest.load" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DictionaryTest.loadDictionary2" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DictionaryTest.testInitDictionary" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DictionaryTest.addWord" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DictionaryTest.testAdd" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DictionaryTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CollectionTest.filterFunctionTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CollectionTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ConditionTest.testParseWhenOverOneWeek" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DictionaryTest.addWord" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DictionaryTest.testInitDictionary" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DictionaryTest.loadDictionary2" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DictionaryTest.findWords" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DictionaryTest.load" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ConditionTest.testParseWhenOverOneWeek" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CollectionTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CollectionTest.filterFunctionTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DictionaryTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DictionaryTest.testAdd" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -735,6 +656,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9fcd6262-51d0-4c2b-87df-db955a24d765" name="Default" comment="" />
@@ -750,28 +688,28 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6405836" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31962866" sideWeight="0.6364749" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32625994" sideWeight="0.5035868" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47612733" sideWeight="0.6364749" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32625994" sideWeight="0.5035868" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32625994" sideWeight="0.4913917" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42307693" sideWeight="0.4913917" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26040173" sideWeight="0.74403185" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25596818" sideWeight="0.49388006" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24748924" sideWeight="0.6405836" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35941646" sideWeight="0.49388006" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35676393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.044973545" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -834,116 +772,209 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runner/JUnitCore.class">
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/compiler/Token.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="35" selection-start="1395" selection-end="1395" vertical-scroll-proportion="-13.72" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/trie/test/TreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="58" selection-start="3309" selection-end="3337" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwc/io/DataOutputBufferStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="51" selection-start="911" selection-end="911" vertical-scroll-proportion="0.0">
+        <state line="13" column="11" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwc/sort/BitMap.java">
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/Console.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="42" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwc/io/DataInputBufferStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="38" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0">
+        <state line="17" column="28" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pwc/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="27" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0">
+        <state line="13" column="19" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/statements/RunAfters.class">
+    <entry file="file://$PROJECT_DIR$/code.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="16" selection-start="612" selection-end="612" vertical-scroll-proportion="-7.8">
+        <state line="10" column="23" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/ParentRunner.class">
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/array/Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="16" selection-start="2759" selection-end="2759" vertical-scroll-proportion="-6.12">
+        <state line="34" column="13" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="18" column="32" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="-6.6">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="313" column="13" selection-start="11758" selection-end="11758" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/dictionary/Letter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/trie/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/trie/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="35" selection-start="2218" selection-end="2218" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1594#1602#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/dictionary/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="37" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#410#424#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/dictionary/DictionaryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="31" selection-start="3221" selection-end="3221" vertical-scroll-proportion="0.5882353">
+        <state line="41" column="60" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/compiler/SymbolCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/hotel/test/ConditionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="52" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/collect/EachFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/collect/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="22" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/collect/test/CollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="7" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#891#899#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/tool/KnifeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/tool/Knife.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/compiler/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pwc/brains/compiler/scannerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="254" selection-end="254" vertical-scroll-proportion="0.1789976">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.0.1 (/Library/Frameworks/Python.framework/Versions/3.0/bin/python) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>brains</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>easymock-3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
